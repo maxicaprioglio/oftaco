@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#Servicios{
+  background-image: url("../imagenes/fondo/fondo.png");
+  background-repeat: repeat;
+}
+
+.letras {
+  text-decoration: dashed;/*  aca cambie*/
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease-in-out;
+  /* Transición suave de la transformación */
+
+}
+
+.letras:hover {
+  transform: scale(1.2);
+  /* Escala al 120% del tamaño original */
+
+}
+
+.textoTrayectoria{
+  font-size: 1.1vw;
+}
+
+.textoPrincipalServ{
+  font-family: "Playfair Display", Georgia, "Times New Roman";
+}
+
+.contenedorCentral {
+height: 150px;
+
+overflow: hidden;
+  /* Establece una altura mínima del 100% del alto de la ventana */
+}
+
+.fondoServicio{
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.tituloServicio{
+  font-size: 1.5vw;
+  font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+  color: #ffffff;
+}
+
+.tituloServicioB{
+  font-size: 1.5vw;
+  font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+  color: #000000;
+}
+
+.tituloServicioC{
+  font-size: 1.5vw;
+  font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+  color: #000000;
+}
+
+.imagenServicio{
+  width: 26%;
+}
+
+/* correccion del carrousel */
+.contactoCss {
+  margin-top: 150px;
+  /* Establece una altura mínima del 100% del alto de la ventana */
+}
+
+.fondoFooter{
+  
+overflow: hidden;
+}
+.footerCss{
+  background-color: #cacbcc;
+  color: #000000;
+}
+
+/* Estilos para el whatsapp */
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25D366;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 29.8px;
+  z-index: 100;
+}
+
+.bi-whatsapp {
+  margin-top: 6px;
+}
+
+.footerMedia{
+  width: 300px;
+}
+
+.servicioColorTit{
+  color: rgb(61, 62, 57);
+}
